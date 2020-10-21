@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+body {
+    text-align: center;
+    padding: 10px;
+    background: url('./images/galaxy.gif');
+    height: 100vh;
+}
+main {
+    height: 550px;
+}
+header {
+    margin-bottom: 20px;
+}         
+h1 {
+    color: #fff;
+    text-shadow: 1px 2.5px rgb(93 107 206 / 93%);
+    margin-bottom: 2em;
+    letter-spacing: 1.5px;
+}                      
+input, select, button {
+    outline-color: initial;
+    color: #000;
+    border: none;
+    background-color: #fff;
+    padding: 6px;
+    margin: 4px;
+    font-size: 11px;
+}
+input:focus, select:focus, button:focus {
+    outline: none;
+}
+button {
+    background: #89838a;
+    color: #ffffff;
+    cursor: pointer;
+}
+::placeholder {
+    color: #89838A;
+}
+div.flex-container {
+    width: 75vw;
+    margin: 0 auto;
+    background: #89838a;
+    opacity: 0.3;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planet-image {
+    width: 450px;
+}
