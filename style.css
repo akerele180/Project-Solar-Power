@@ -5,8 +5,9 @@
 body {
     text-align: center;
     padding: 10px;
-    background: url('./images/galaxy.gif');
-    height: 100vh;
+    background: url('./images/galaxy.gif') ;
+    /* background-size: cover; */
+    /* height: 100vh; */
 }
 main {
     height: 550px;
@@ -44,7 +45,7 @@ div.flex-container {
     width: 75vw;
     margin: 0 auto;
     background: #89838a;
-    opacity: 0.3;
+    opacity: 0.2;
     height: inherit;
     display: flex;
     justify-content: center;
